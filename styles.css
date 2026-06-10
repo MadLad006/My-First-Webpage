@@ -1,0 +1,286 @@
+.my-name {
+
+    font-family: "EB Garamond", serif;
+    font-size: 140px;
+    font-weight: 600;
+
+    animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+.background {
+
+    min-height: 100vh;
+    background-image: linear-gradient(180deg, #0b1d51, #725ac1, #ff8a5b);
+
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+
+.title-font {
+    font-family: "EB Garamond", serif;
+    font-size: 100px;
+    font-weight: 500;
+
+    position: absolute;
+    top: 10vh;
+
+
+    animation: fadeIn 2s forwards;
+
+}
+
+
+
+
+
+a {
+    padding: 14px 32px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+
+    text-decoration: none;
+
+
+    background: linear-gradient(
+        135deg,
+        rgba(255, 255, 255, 0.18),
+        rgba(255, 255, 255, 0.08)
+    );
+
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 18px;
+
+    backdrop-filter: blur(20px);
+
+    box-shadow:
+        0 8px 30px rgba(0,0,0,0.2),
+        inset 0 1px 1px rgba(255, 255, 255, 0.2);
+
+    cursor: pointer;
+
+    transition: 0.25 ease;
+}
+
+
+a:hover {
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 14px 40px rgba(0,0,0,0.3),
+        inset 0 1px 2px rgba(255,255,255,0.3);
+
+}
+
+a:active {
+    transform: scale(0.98);
+}
+
+.a-skills {
+    postion: absolute;
+    top: 30vh;
+    left: 10vw;
+}
+
+.a-about {
+    position: absolute;
+    top: 20vh;
+    left: 30vw;
+}
+
+.a-interests {
+    position: absolute;
+    top: 20vh;
+    right: 30vw;
+}
+
+.a-contact {
+    position: absolute;
+    top: 30vh;
+    right: 10vw;
+}
+
+.a-home {
+    position: absolute;
+    bottom: 10vh;
+}
+
+
+.inside-font {
+    font-family: "EB Garamond", serif;
+    font-size: 20px;
+    font-weight: 500;
+
+    position: absolute;
+
+
+
+    animation: fadeIn 2s forwards;
+
+}
+
+footer {
+    padding: 60px 0;
+
+    background: rgba(255, 255, 255, 0.08);
+
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+
+    box-shadow:
+        0 -8px 30px rgba(0,0,0,0.15),
+        inset 0 1px 1px rgba(255, 255, 255, 0.15);
+
+    animation: fadeIn 2s forwards;
+
+}
+
+.footer-stuff {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 18px;
+}
+
+.footer-title {
+    font-family: "EB Garamond", serif;
+    font-size: 42px;
+    font-weight: 600;
+
+    color: white;
+
+    margin: 0;
+}
+
+.footer-font{
+    color: rgba(255, 255, 255, 0.85);
+
+    font-family: sans-serif;
+
+    margin: 0;
+
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.85);
+
+    font-family: sans-serif;
+
+    margin: 0;
+}
+
+.footer-nav {
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.hello-name {
+    position: absolute;
+    top: 5vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    animation: fadeIn 2s forwards;
+}
+
+
+
+.hello-name input {
+
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+
+    color: black;
+    font-size: 16px;
+
+    text-align: center;
+
+    animation: fadeIn 2s forwards;
+
+    padding: 14px 32px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+
+    text-decoration: none;
+
+
+    background: linear-gradient(
+        135deg,
+        rgba(255, 255, 255, 0.18),
+        rgba(255, 255, 255, 0.08)
+    );
+
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 18px;
+
+    backdrop-filter: blur(20px);
+
+    box-shadow:
+        0 8px 30px rgba(0,0,0,0.2),
+        inset 0 1px 1px rgba(255, 255, 255, 0.2);
+}
+
+
+
+.hello-name input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+
+    animation: fadeIn 2s forwards;
+}
+
+#hello-button {
+    padding: 12px 24px;
+
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 18px;
+
+    background: linear-gradient(
+        135deg,
+        rgba(255,255,255,0.18),
+        rgba(255,255,255,0.08)
+    );
+
+    color: white;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    animation: fadeIn 2s forwards;
+
+}
+
+#greeting {
+    color: white;
+    font-size: 22px;
+    font-family: "EB Garamond", serif;
+
+    margin: 0;
+
+    animation: fadeIn 2s forwards;
+}
